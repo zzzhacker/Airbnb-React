@@ -24,15 +24,15 @@ Notes:
 export default function Card(props) {
     return (
         <div className='card'>
-            <img className="card--image" src={process.env.PUBLIC_URL+'/images/katie-zaferes.png'}/>
+            <img className="card--image" src={process.env.PUBLIC_URL+props.img}/>
             <div className='card--stats'>
                 <img className ="card--star" src={process.env.PUBLIC_URL+'/images/star.png'}/>
-                <span className="grey">5.0</span>
-                <span className="grey">(6) • </span>
-                <span>USA</span>
+                <span className="grey">{props.rating}</span>
+                <span className="grey">({props.reviewCount}) • </span>
+                <span>{props.country}</span>
             </div>
-            <p>Life Lessone with katie</p>
-            <p><span className="bold">from $136k</span>/person</p>
+            <p>{props.title}</p>
+            <p><span className="bold">from ${props.price}k</span>/person</p>
         </div>
         
     )
