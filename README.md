@@ -1,19 +1,15 @@
 # Create React Airbnb App
 
-This project is done for createing a simple airbnb experience page.
+In this project a simple airbnb experience page clone to learn and implement React props concepts.
+### Objectives
 
+- [x] Learn about props
+- [x] Learn abouts Data Flow through Props
+- [x] Use Array maps with JSX to create mutiple compnonents with different data
+- [x] Conditioning on HTML elements according to props Data
+- [x] Learn about react-creat-app and use it to create a react project from scratch
 
-### `npm start`
+### Run App
+- $ npm start
+- Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
