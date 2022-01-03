@@ -1,5 +1,4 @@
 # Create React Airbnb App
-
 In this project a simple airbnb experience page clone to learn and implement React props concepts.
 
 ### Objectives
